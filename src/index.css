@@ -1,0 +1,178 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  margin-top: 0px;
+  background-color: white;
+  font-family: fantasy;
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: red;
+  height: 60px;
+}
+
+
+
+
+.post {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+
+
+input {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+
+
+
+textarea {
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+button {
+  color: red;
+  display: flex;
+  height: 20px;
+  width: 100px;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.Links {
+  flex-direction: row;
+}
